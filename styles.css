@@ -804,15 +804,15 @@ main { margin-left: var(--sidebar-w); }
 }
 
 .btn-solid {
-  padding: 12px 24px;
-  background: var(--text);
-  border: 1px solid var(--text);
+  padding: 13px 25px;
+  background: var(--accent-solid);
+  border: 1px solid var(--accent-solid);
   border-radius: 8px;
-  color: var(--bg);
+  color: var(--accent-solid-ink);
   font-size: 13.5px;
   font-weight: 500;
   letter-spacing: .04em;
-  transition: transform .25s ease, box-shadow .25s ease;
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
 }
 .btn-solid::after {
   content: "→";
@@ -820,7 +820,7 @@ main { margin-left: var(--sidebar-w); }
   display: inline-block;
   transition: transform .25s ease;
 }
-.btn-solid:hover { transform: translateY(-2px); box-shadow: 0 10px 22px -14px rgba(0,0,0,.6); }
+.btn-solid:hover { transform: translateY(-2px); filter: brightness(1.12); box-shadow: 0 10px 22px -14px rgba(0,0,0,.6); }
 .btn-solid:hover::after { transform: translateX(4px); }
 
 /* --- pestañas de preguntas oficiales --- */
