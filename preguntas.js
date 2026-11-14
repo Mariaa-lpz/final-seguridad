@@ -1,22 +1,5 @@
-/*
-  ============================================================
-  PREGUNTAS OFICIALES — TEST DE VERDADERO O FALSO
-  ============================================================
-  Añade aquí cada pregunta con esta estructura:
-
-  {
-    pregunta:  "Enunciado de la pregunta",
-    respuesta: true,          // true = Verdadero · false = Falso
-    explicacion: "Explicación oficial de por qué es verdadero/falso"
-  }
-
-  Importante: respuesta debe ser true o false (sin comillas).
-  El número de preguntas es ilimitado: la web se adapta sola.
-  ============================================================
-*/
 
 window.PREGUNTAS = [
-  // ⚠️ EJEMPLOS — sustitúyelos cuando me pases las preguntas reales
   {
     pregunta: "El cifrado AES-256 se considera seguro para proteger datos en reposo.",
     respuesta: true,
